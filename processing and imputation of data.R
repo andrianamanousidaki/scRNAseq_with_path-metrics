@@ -144,9 +144,11 @@ saveRDS(GetAssayData(rnamix2),"rnamix2_filtered.rds")
 
 rnamix1_saver<-saver(GetAssayData(rnamix1),ncores=20,size.factor=1)
 saveRDS(rnamix1_saver$estimate,"RNAmix1_original_saver.rds")
-
+write.csv(rnamix1_saver$estimate,'RNAmix1_original.csv')
+          
 rnamix2_saver<-saver(GetAssayData(rnamix2),ncores=20,size.factor=1)
 saveRDS(rnamix2_saver$estimate,"RNAmix2_original_saver.rds")
+write.csv(rnamix2_saver$estimate,'RNAmix2_original.csv')
 
 
 ################################################################################
