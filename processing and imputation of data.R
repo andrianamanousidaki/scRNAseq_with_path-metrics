@@ -103,6 +103,7 @@ write.csv(num_labels,"pancreatic_tabula_muris_labels.csv")
 beta<-readRDS("beta_sim_34_10_for_saver.rds")
 beta_saver<- saver(beta,ncores=20)
 saveRDS(beta_saver$estimate,'beta_sim_filtered_saver.rds')
+write.csv(beta_saver$estimate,'beta_3_4_10_filtered_saver.csv')
 # for labels see Simulationscript.R 
 
 ################################################################################
