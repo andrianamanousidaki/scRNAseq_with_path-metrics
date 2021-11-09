@@ -19,12 +19,9 @@ obtained which respects both the global geometry of the data and preserves clust
 * To process the data sets used in results:
   1.	Download the real data sets using the links mentioned on “processing and imputation of data.R”
   2.	Run *processing and imputation of data.R*
-  
-    - **For Basic scaling:** input in Matlab the csv file of the data set of interest produced in a, along with the true labels file. Then run *Code and data     sets/Code_for_github/ProcessData.m* after uncommenting the name of the data set and the line “Normalization = 'Basic';”.
-   
-     - **For Linnorm scaling:** run *Linnorm transformation.R* for the data set of interest produced in a. Then input in Matlab the output csv file along with the true labels file. Then run *Code and data sets/Code_for_github/ProcessData.m* after uncommenting the name of the data set and the line “Normalization = 'Linnorm';”. Now you can use the output to run *Code and data sets/Code_for_github/RunPathMetrics.m*.
-   
-    - **For SCT scaling:** run *sctranform_for_PM_after_SAVER_imputation.R* for the data set of interest produced in a. Then input in Matlab the output csv file along with the true labels file. Then run *Code and data sets/Code_for_github/ProcessData.m* after uncommenting the name of the data set and the line “Normalization = 'SCT';”. Now you can use the output to run *Code and data sets/Code_for_github/RunPathMetrics.m*.
+    1. **For Basic scaling:** input in Matlab the csv file of the data set of interest produced in a, along with the true labels file. Then run *Code and data     sets/Code_for_github/ProcessData.m* after uncommenting the name of the data set and the line “Normalization = 'Basic';”.
+    2. **For Linnorm scaling:** run *Linnorm transformation.R* for the data set of interest produced in a. Then input in Matlab the output csv file along with the true labels file. Then run *Code and data sets/Code_for_github/ProcessData.m* after uncommenting the name of the data set and the line “Normalization = 'Linnorm';”. Now you can use the output to run *Code and data sets/Code_for_github/RunPathMetrics.m*.
+    3. **For SCT scaling:** run *sctranform_for_PM_after_SAVER_imputation.R* for the data set of interest produced in a. Then input in Matlab the output csv file along with the true labels file. Then run *Code and data sets/Code_for_github/ProcessData.m* after uncommenting the name of the data set and the line “Normalization = 'SCT';”. Now you can use the output to run *Code and data sets/Code_for_github/RunPathMetrics.m*.
 
 
 * Other files description:
