@@ -20,13 +20,13 @@ obtained which respects both the global geometry of the data and preserves clust
   1.	Download the real data sets using the links mentioned on “processing and imputation of data.R”
   2.	Run *processing and imputation of data.R*
   3.  Scale data
-   *  **For Basic scaling:** input in Matlab the csv file of the data set of interest produced in a, along with the true labels file. Then run *Code and data     sets/Code_for_github/ProcessData.m* after uncommenting the name of the data set and the line “Normalization = 'Basic';”.
+   *  **For Basic scaling:** input in Matlab the csv file of the data set of interest produced in step 2, along with the true labels file. Then run *Code and data     sets/Code_for_github/ProcessData.m* after uncommenting the name of the data set and the line “Normalization = 'Basic';”.
    *  **For Linnorm scaling:** run *Linnorm transformation.R* for the data set of interest produced in a. Then input in Matlab the output csv file along with the true labels file. Then run *Code and data sets/Code_for_github/ProcessData.m* after uncommenting the name of the data set and the line “Normalization = 'Linnorm';”. Now you can use the output to run *Code and data sets/Code_for_github/RunPathMetrics.m*.
    *  **For SCT scaling:** run *sctranform_for_PM_after_SAVER_imputation.R* for the data set of interest produced in a. Then input in Matlab the output csv file along with the true labels file. Then run *Code and data sets/Code_for_github/ProcessData.m* after uncommenting the name of the data set and the line “Normalization = 'SCT';”. Now you can use the output to run *Code and data sets/Code_for_github/RunPathMetrics.m*.
 
 
 * Other files description:
-  1.	*Seurat_clustering_analysis_AM.R :* Apply Seurat clustering data set produced by *processing and imputation of data.R*
+  1.	*Seurat_clustering_analysis.R :* Apply Seurat clustering data set produced by *processing and imputation of data.R*
   2.	*RunSNNClustering.R:* Apply SNN clustering on data sets after Basic or SCT scaling (created as described in 3b.)
   3.	*clustering_evaluation.R:* Function that produces ARI, Entropy of cluster accuracy and Entropy of cluster Purity for a clustering.
   4.	*numerical_to_word_labels.xlsx:* For interpretation purposed we provide the correspondence of numerical labels and descriptive labels for the data sets used for the results.
