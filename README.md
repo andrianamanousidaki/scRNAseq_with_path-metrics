@@ -8,7 +8,7 @@ obtained which respects both the global geometry of the data and preserves clust
 * To reproduce results of processed data sets:
   1.	Use the link in Code and data sets folder to access processed data sets and source code.
   2.	Use data sets in ProcessedDataSets folder.
-  3.	Run *RunPathMetrics.m* using Matlab version 2020b.
+  3.	Run *RunPathMetrics.m* using Matlab version 2021a.
 
 
 * To produce the simulated beta cells data set:
