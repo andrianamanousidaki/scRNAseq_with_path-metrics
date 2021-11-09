@@ -1,5 +1,5 @@
 # scRNAseq_with_path-metrics
-Here we provide source code for a clustering and visualization method single-cell RNA-seq that exploits path metrics. Using this method, distances between cells are measured in a data-driven way which is both density
+Here we provide source code for a clustering and visualization method for single-cell RNA-seq data sets, that exploits path metrics. Using this method, distances between cells are measured in a data-driven way which is both density
 sensitive (decreasing distances across high density regions) and respects the underlying data geometry.
 By combining path metrics with multidimensional scaling, a low dimensional embedding of the data is
 obtained which respects both the global geometry of the data and preserves cluster structure.
