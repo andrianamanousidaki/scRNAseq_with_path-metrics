@@ -4,8 +4,9 @@ sensitive (decreasing distances across high density regions) and respects the un
 By combining path metrics with multidimensional scaling, a low dimensional embedding of the data is
 obtained which respects both the global geometry of the data and preserves cluster structure.
 
-# Requirements
-1.[Adjusted Rand index Matlab function version 1.0.0.0](https://www.mathworks.com/matlabcentral/fileexchange/49908-adjusted-rand-index)
+# Requirements 
+
+1. [Adjusted Rand index Matlab function version 1.0.0.0](https://www.mathworks.com/matlabcentral/fileexchange/49908-adjusted-rand-index)
 2. [Munkres Assignment Algorithm Matlab function](https://www.mathworks.com/matlabcentral/fileexchange/20328-munkres-assignment-algorithm)
 3. [Uniform Manifold Approximation and Projection (UMAP) Matlab function >= version 1.5.2](https://www.mathworks.com/matlabcentral/fileexchange/71902-uniform-manifold-approximation-and-projection-umap)
 
