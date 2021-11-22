@@ -6,8 +6,8 @@ obtained which respects both the global geometry of the data and preserves clust
 
 # Requirements
 1.[Adjusted Rand index Matlab function version 1.0.0.0](https://www.mathworks.com/matlabcentral/fileexchange/49908-adjusted-rand-index)
-2. [Munkres Assignment Algorithm Matlab function]{https://www.mathworks.com/matlabcentral/fileexchange/20328-munkres-assignment-algorithm}
-3. [Uniform Manifold Approximation and Projection (UMAP) Matlab function >= version 1.5.2]{https://www.mathworks.com/matlabcentral/fileexchange/71902-uniform-manifold-approximation-and-projection-umap}
+2. [Munkres Assignment Algorithm Matlab function](https://www.mathworks.com/matlabcentral/fileexchange/20328-munkres-assignment-algorithm)
+3. [Uniform Manifold Approximation and Projection (UMAP) Matlab function >= version 1.5.2](https://www.mathworks.com/matlabcentral/fileexchange/71902-uniform-manifold-approximation-and-projection-umap)
 
 # Description of files
 * To reproduce results of processed data sets:
@@ -16,7 +16,7 @@ obtained which respects both the global geometry of the data and preserves clust
 
 
 * To produce the simulated beta cells data set:
-  1.	Download "GSM2230757_human1_umifm_counts.csv.gz" from [here]{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2230757}
+  1.	Download "GSM2230757_human1_umifm_counts.csv.gz" from [here](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2230757)
   2.	Run *Simulationscript.R*
   
   
